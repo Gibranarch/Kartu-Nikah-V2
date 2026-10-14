@@ -73,10 +73,7 @@ export const weddingData = {
   ],
 };
 
-/**
- * Returns the guest name from ?tamu= query param,
- * falling back to weddingData.guest.
- */
+
 export function getGuestName() {
   const params = new URLSearchParams(window.location.search);
   return params.get('tamu') || weddingData.guest;
