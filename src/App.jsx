@@ -138,11 +138,13 @@ function App() {
             draggable="false"
           />
 
-          <MusicPlayer
-            isPlaying={isMusicPlaying}
-            onToggle={toggleMusic}
-            hasAudio={!!weddingData.audio}
-          />
+          {isOpened && (
+            <MusicPlayer
+              isPlaying={isMusicPlaying}
+              onToggle={toggleMusic}
+              hasAudio={!!weddingData.audio}
+            />
+          )}
         </div>
       </div>
     </>
