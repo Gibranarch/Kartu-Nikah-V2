@@ -36,11 +36,13 @@ export const weddingData = {
       bank: "BRI",
       name: "Ardan Gifran",
       account: "987654321",
+      logo: "/images/banks/bri.svg",
     },
     {
       bank: "BCA",
       name: "Carmenita Ayu",
       account: "234567890",
+      logo: "/images/banks/bca.svg",
     },
   ],
   gallery: [
